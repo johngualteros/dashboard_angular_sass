@@ -1,0 +1,206 @@
+$primary:#141414
+$secondary:#77E76A
+$tertiary:#fad74a
+$quaternary:#ff51ff
+$quinary:#fc4949
+$senary:#5efdd2
+$septenary:#4089f7
+$octonary:#874bff
+$nonary:#dbff59
+$denary:#fa5f9d
+.main
+    width: 100%
+    height: 100vh
+    background-color: $primary
+
+.container_all
+    width: 100%
+    height: 100%
+    display: grid
+    grid-template-columns: 4% auto
+h1
+    color:#ddd
+    text-align: center
+
+.sidebar_container
+    background-color:$primary
+    display: grid
+    place-items: center
+    padding: 60px 0
+
+.container
+    background-color: #111
+    display: grid
+    grid-template-columns: auto
+    grid-template-rows: 8% auto
+
+.link_container    
+    width: 100%
+    height: 100%
+    display: grid
+    place-items: center
+
+
+.navbar
+    display: grid
+    grid-template-columns: auto auto
+    grid-template-rows: auto
+    width:100%
+    background-color: $primary
+    padding:10px 0
+        
+.search_container
+    padding-left: 10%
+
+input
+    width: 40%
+    height: 25px
+    outline: none
+    border-radius: 10px
+    border: 1px solid #444
+    padding-left: 10px
+    font-size: 12px
+    color: #ddd
+    background-color: $primary
+.button_search, button
+    margin-left: 10px
+    width: 20%
+    font-weight: bold
+    height: 25px
+    border-radius: 10px
+    border: 1px solid $secondary
+    outline: none
+    background-color: $secondary
+    color: #222
+    font-size: 12px
+    cursor: pointer
+
+button
+    margin-left:0
+    margin-right: 10%
+    
+.container_add_button
+    width: 100%
+    display: flex
+    justify-content: flex-end
+
+.icon_hamburger
+    color:$tertiary
+.icon_bath
+    color:$quaternary
+.icon_atom
+    color:$quinary
+.icon_user
+    color:$senary
+.icon_code
+    color:$septenary
+.icon_terminal
+    color:$octonary
+.icon_laptop
+    color:$nonary
+.icon_branch
+    color:$denary
+.icon_ellipsis
+    color:$secondary
+a
+    color: #fff
+    text-decoration: none
+    font-size: 1.2em
+    font-weight: bold
+.container_content
+    padding: 25px 40px
+.container_message
+    width: 100%
+    height: 10%
+    border-radius: 5px
+    display: flex
+    justify-content: space-between
+    align-items: center
+    background: rgb(29,0,77)
+    background: linear-gradient(317deg, rgba(29,0,77,1) 0%, rgba(94,27,236,1) 35%, rgba(93,15,134,1) 63%, rgba(213,50,212,1) 100%)
+#button_message
+    border-radius: 5px
+    outline: none
+    width: 120px
+    background-color: #fff
+    color: #222
+    font-size: 12px
+    cursor: pointer
+    margin-right: 10px
+h3
+    color: #fff
+    font-size: 1.2em
+    font-weight: bold
+    margin-left: 10px
+
+.container_graphics
+
+    width: 100%
+    height: 80%
+    padding: 10px 0
+    display: grid
+    grid-template-columns: 33% 33% 33%
+    grid-template-rows: 20% auto
+    gap:10px
+
+.big_graphic
+    grid-column: 2/4
+    background-color: $primary
+    border-radius: 5px
+    box-shadow: 0px 0px 1px #000
+    padding: 20px
+
+.container_graphic
+    background-color: $primary
+    border-radius: 5px
+    box-shadow: 0px 0px 1px #000  
+    display: grid
+    place-items: center
+    h4
+        color: #fff
+        font-size: 1.5em
+        font-weight: bold
+    #image_graphic
+        width: 90%
+        height: 80%
+        object-fit: cover
+        border-radius: 5px
+
+.profile
+    display: grid
+    grid-template-columns: 40% auto
+    grid-template-rows: auto
+    place-items: center
+    text-align: center
+img
+    width:50px
+    height:50px
+    border-radius: 50%
+.color-blue
+    color: $septenary
+.color-pink
+    color: $octonary
+.color-orange
+    color: $nonary
+.color-green
+    color: $secondary
+    font-weight: bold
+.color-red
+    color: $quinary
+    font-weight: bold
+table
+    width: 100%
+    height: 100%
+    border-collapse: collapse
+    border-spacing: 0
+    font-size: 12px
+    color: #444
+    background-color: #111
+    border-radius: 5px
+    box-shadow: 0px 0px 1px #000
+    text-align: center
+    border: 1px solid $septenary
+    padding:10px
+    th
+        padding: 10px
+        color:#fff

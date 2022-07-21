@@ -1,3 +1,6 @@
+# Result all is my design
+# made in angular and sass
+![](./src/dashboard_angular.png)
 # DashboardMaterialCanvasAngular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.6.
